@@ -1,0 +1,46 @@
+/* *{
+    background-color: rgb(213, 168, 109);
+}
+
+#heading{
+    color: aliceblue;
+    background-color: cadetblue;
+    font-size: "2px";
+    font-weight: bold;
+}
+
+p{
+    color: aliceblue;
+    background-color: rgb(169, 209, 99);
+    font-size: "1.5px";
+    text-align: right;
+}
+
+#secondHeading{
+    color: aliceblue;
+    background-color: cadetblue;
+
+} */
+
+/* for div.html */
+div{
+    height: 200px;
+    width: 200px;
+}
+#green{
+    background-color: greenyellow;
+    border: 10px solid black;
+    padding: 20px;
+}
+#yellow{
+    background-color: rgb(231, 255, 47);
+    border: 10px solid black;
+    padding: 20px;
+    margin-left: 260px;
+}
+#red{
+    background-color: red;
+    border: 10px solid black;
+    padding: 20px;
+    margin-left: 16px;
+}
