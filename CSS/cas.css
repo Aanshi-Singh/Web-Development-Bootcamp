@@ -1,0 +1,24 @@
+
+#outer-box{
+    border: 5px solid rgba(114, 7, 25, 0.934);
+    
+}
+.box{
+    background: blue;
+    padding: 10px;
+    
+}
+
+.red-box{
+    background: red;
+    
+}
+p{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+h4{
+    color: yellow;
+}
+
