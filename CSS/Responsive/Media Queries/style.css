@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+@media(max-width: 600px){
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: yellowgreen;
+    }
+
+    
+}
+@media(min-width: 600px){
+    div{
+        height: 500px;
+        width: 500px;
+        background-color: aqua;
+    }
+
+@media (min-width: 600px) and (max-width: 900px){
+    div{
+        height: 62px;
+        width: 62px;
+        background-color: black;
+    }
+}
