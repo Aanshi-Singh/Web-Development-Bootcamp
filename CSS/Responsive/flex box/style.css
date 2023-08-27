@@ -1,3 +1,5 @@
+/* css-tricks.com */
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@
     gap : 1rem;
     padding: 10px;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     /* justify-content: center; */
     /* justify-content: flex-end; */
 

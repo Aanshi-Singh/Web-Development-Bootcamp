@@ -1,0 +1,58 @@
+
+/* *{
+    margin: 0;
+}
+.white{
+    /* height: 100px;
+    width: 100px; */
+    /* background-color: bisque;
+    border: 1px solid black;
+}
+
+.black{
+    /* height: 100px;
+    width: 100px; */
+/*background-color:sienna;
+    border: 1px solid black;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 100px minmax(200px, 800px);
+    grid-template-rows: 200px 400px;
+    grid-auto-rows: 300px;
+   
+}
+ */
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+} 
+
+.item{
+    font-size: 2rem;
+    color: white;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cowboy{
+    background-color: aqua;
+    grid-column: span 2;
+}
+
+.astronaut{
+    order: 1;
+    grid-column: span 2;
+    background-color: crimson;
+}
+
+.book{
+    grid-row: span 2;
+}
